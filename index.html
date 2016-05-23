@@ -35,13 +35,13 @@
 
           1. Presentación ICGC
           2. Cómo se hace una cobertura de ortoimagen
-          3. La cadena de producción del ICGC
+          3. Uso de FOSS en la cadena de producción del ICGC
         </section>
 
        <section>
          <section data-markdown>
            <script type="text/template">
-             ## Institut Cartogràfic i Geològic de Catalunya
+             ## ICGC
 
              - Empresa pública que Elabora la cartografía oficial en Catalunya.
              <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -52,20 +52,17 @@
              - Consultar via WMS, descargar via aplicación web.
              <!-- .element class="fragment" data-fragment-index="4" -->
              - Generador de datos base para IGN, Google
-             <!-- .element class="fragment" data-fragment-index="4" -->
+             <!-- .element class="fragment" data-fragment-index="5" -->
            </script>
          </section>
          <section data-markdown>
            <script type="text/template">
-             ## Institut Cartogràfic i Geològic de Catalunya
-
+             ## ICGC
              ![vissir](img/Vissir3.png) 
-
            </script>
          </section>
          <section data-markdown>
-             ## Institut Cartogràfic i Geològic de Catalunya
-
+             ## ICGC
              ![vissir](img/google.png) 
          </section>
          <section data-markdown>
@@ -95,7 +92,7 @@
         <section data-markdown>
           ## La cadena de producción de ortoimagen
 
-          - Programas _batch_, command-line
+          - Programas interactivos y _batch_, command-line
           - C++ / Fortran para proceso de imagen
           - Python siempre que podemos...
           - ... en Windows, toolchain de Microsoft
@@ -499,7 +496,8 @@
 			Reveal.initialize({
 				history: true,
       progress: true,
-      slideNumber: true,
+//      slideNumber: true,
+      transition: 'convex',
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
